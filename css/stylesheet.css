@@ -5,6 +5,7 @@ body{
 .navmenu {
     background-color: lightblue;
     overflow: hidden;
+    text-align: center;
   }
 
 .navmenu a {
@@ -13,4 +14,20 @@ body{
 
 .intro{
     font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (min-width:600px){
+    .acit1420,.acit1620,.acit1620_1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width:599px){
+    .navmenu{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
 }
