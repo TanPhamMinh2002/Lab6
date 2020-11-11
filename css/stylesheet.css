@@ -1,0 +1,16 @@
+body{
+    background-color: beige;
+}
+
+.navmenu {
+    background-color: lightblue;
+    overflow: hidden;
+  }
+
+.navmenu a {
+    text-align: center;
+}
+
+.intro{
+    font-family: 'Montserrat', sans-serif;
+}

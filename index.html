@@ -3,11 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title> index.html </title>
-        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="css/stylesheet.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <h1>
+
+        <div class="navmenu">
+            <a class="active" title="courses.html" href="misc/courses.html"> courses.html</a>
+            <a href="misc/school.html" title="school.html"> school.html</a>
+          </div>
+
+        <section>
+            <h1 class="intro">
                 Some things about me
             </h1>
             <p>
@@ -17,19 +24,25 @@
                 me a lot of time. My current favorite course that I am taking at BCIT is 
                 <strong>ACIT-1620</strong>
             </p>
-        </div>
+        </section>
 
-        <div>
-            <h1>
+        <section>
+            <h2>
                 My courses
-            </h1>
+            </h2>
             <ol>
                 <li>ACIT-1420-0 - Intro to Systems Admin 1C </li>
                 <li>ACIT-1515 - Scripting for IT </li>
                 <li><a title="Course Outline" href="https://www.bcit.ca/study/outlines/20203041870"> 
                     ACIT-1620 (1C) Fundamental Web Technologies </a></li>
             </ol>
-        </div>
+        </section>
+
+        <section>
+            <a href="https://www.bcit.ca/">
+                <img src="images/bcitlogo.png" /> 
+            </a>
+        </section>
         
     </body>
 </html>
